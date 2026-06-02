@@ -6,12 +6,12 @@ keep_vars = true
 [observability]
 enabled = true
 
-#[[d1_databases]]
+[[d1_databases]]
 binding = "db"			#d1数据库绑定名默认不可修改
 database_name = "cloud-mail"		#d1数据库名字
 database_id = "4ee5b713-db37-4eca-9c81-fb315850f4d6"		#d1数据库id 
 
-#[[kv_namespaces]]
+[[kv_namespaces]]
 binding = "kv"			#kv绑定名默认不可修改
 id = "97a7052f870b4481ae54f31aafdf25a9"					#kv数据库id
 
